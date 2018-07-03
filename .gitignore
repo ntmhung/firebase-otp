@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+funtions/node_modules/
+.expo/*
+npm-debug.*
+.idea/
