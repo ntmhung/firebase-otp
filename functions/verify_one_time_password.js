@@ -35,7 +35,8 @@ module.exports = function (request, response) {
                 admin.auth().createCustomToken(phone)
                     .then(token => {
                         return response.send({token: token})
-                    });
+                    })
+                    .catch();
             })
         })
         .catch((error) => {
